@@ -31,11 +31,23 @@ That last one is especially useful for developers, since the vast majority of pr
 **fun links**
 
 * https://www.youtube.com/watch?v=tc4ROCJYbm0
-  Old AT&T archive on the Unix operating system, which is the earliest example of a large amount of concepts we take for granted today.
+  Old AT&T archive on the Unix operating system, which is the earliest example of several concepts we take for granted today.
 * https://ohmyz.sh/
   A set of tools to make the terminal application zshell quite a bit more friendly. I use zshell and oh my zsh exclusively on mac and Linux operating systems.
 * https://learn.microsoft.com/en-us/powershell/
   The new open source version of PowerShell. I use this for windows. You *can* use it for other operating systems but I've never heard of someone actually doing it.
 
-## Compilers
+## Compilers/Interpreters
+
+Most modern code today is written in a plain text format with a syntax and grammar specific to the programming language. In order to turn your code into something runnable you need a compiler or interpreter specific to the language.
+
+As far as the differences, interpreters are programs that consume code as input and execute the instructions given by the code without any intermediate steps. The most popular modern programming languages with interpreters are nodejs and python.
+
+Compilers consume code as input and output either a complete self-contained program, or turn the code into an intermediate binary format to be run by something called a JIT compiler. Programming languages in the C family have two step compilation. The first step compiles individual files, and the second step links those files together to form a single program.
+
+Languages like golang and rust compile into static programs, meaning they are self contained, and can be run as-is. This does however mean you need to compile the program individually for each operating system/CPU architecture combo you wish to support.
+
+Dotnet and Java compile down to an IL (intermediate language), and use a JIT (just in time) compiler to convert the IL to runnable code. This has the benefit that you can do the main compilation once, and use an OS specific JIT to handle the specific of running on that platform. That does however require the JIT compiler be installed on the target environment in order to use the program.
+
+## What Is Software Development
 
