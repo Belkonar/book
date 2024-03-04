@@ -2,10 +2,4 @@ I think, for the purposes of this book, I'd like to describe the labor of develo
 
 This book will be designed to be continuously updated. Delivered to anyone who wants it, free of charge. It *should* contain most topics relating to the crazy broad world of application development. A likely exception will probably end up being mobile development as I simply don't have experience in that world.
 
-Each section of the book will be labeled with the role it's appropriate for. Here are the current roles.
-
-* programming
-* infrastructure
-* architecture
-
-I plan on setting up a system to build role specific subsets of the book.
+The sections of this book won't be exhaustive. They are meant to expose topics with enough details to get dangerous. The point being that developers might not know where to begin with these topics. I'll be putting in links on further reading in each section. The goal is slightly deeper than surface knowledge on a large number of topics.

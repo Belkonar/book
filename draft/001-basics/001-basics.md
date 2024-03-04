@@ -1,6 +1,6 @@
 # Absolute Basics
 
-The purpose of this chapter is to explain what developing software even means, how to use a shell, and the basics of a compiler (or interpreter). If you are an absolute beginner, read this chapter and then go learn a language. The rest of the book assumes you already know how to build software at a non junior level. 
+The purpose of this section is to explain what developing software even means, how to use a shell, and the basics of a compiler (or interpreter). If you are an absolute beginner, read this chapter and then go learn a language. The rest of the book assumes you already know how to build software at a non junior level. 
 
 ## The Shell
 
@@ -49,5 +49,20 @@ Languages like golang and rust compile into static programs, meaning they are se
 
 Dotnet and Java compile down to an IL (intermediate language), and use a JIT (just in time) compiler to convert the IL to runnable code. This has the benefit that you can do the main compilation once, and use an OS specific JIT to handle the specific of running on that platform. That does however require the JIT compiler be installed on the target environment in order to use the program.
 
+**fun links**
+
+* https://en.wikipedia.org/wiki/Compiler
+  In case you've ever wanted way more info on compilers than you'll ever want or need. **Warning:** It's really not for beginners.
+
 ## What Is Software Development
+
+This section will be fairly philosophical. Likely it won't be the only section like it, but I want to warn the reader nonetheless. Each person that performs a subjective labor like software development will develop their own philosophy regarding how it should be done. If you are a developer and don't agree with the contents of this section, that does not mean you are wrong. It simply means that your experiences are different than mine.
+
+> Software development is the act of creating code with the purpose of converting that code into programs that provide automation or convenience. 
+
+I generally like to add this statement after.
+
+> Software should solve problems. Creating software without a problem leads to infinite scoped software that can do nothing more than soothe ego.
+
+All software you build should have a problem it solves. While it's perfectly fine to build software for the singular purpose of learning, you should still align that learning to a potential problem with a specific scope. A common older problem that folks would use to learn new web technologies is creating a simple CMS (content management system) in that new technology. At some point in this book we'll be breaking down a CMS and why it's a relatively interesting problem for software design. 
 
