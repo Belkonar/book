@@ -10,7 +10,7 @@ For those on windows, to make stuff easier, download the newer terminal emulator
 
 ![image-20240307225156676](./assets/image-20240307225156676.png)
 
-The white block there is a blinking cursor where I can type in commands. You can think of this window as a text based version of windows explorer or the mac finder. You always exist in the context of a folder. The default generally being your "home" directory (helpfully represented by the `~` symbol in the picture. You can change the directory using the `cd` (change directory) command. You can run a program in two ways. Either typing out the path to that program, or ensuring it's in a directory referenced in your PATH environment variable. The methods of doing so can vary greatly based on your setup.
+The white block there is a blinking cursor where I can type in commands. You can think of this window as a text based version of windows explorer or the mac finder. You always exist in the context of a folder. The default generally being your "home" directory. You can change the directory using the `cd` (change directory) command. You can run a program in two ways. Either typing out the path to that program, or ensuring it's in a directory referenced in your PATH environment variable. The methods of doing so can vary greatly based on your setup.
 
 In addition to simply running programs, you can also pass in arguments. You do this by typing the arguments after the name (or path) of the program before hitting the return key. Here's an example that will run the copy program to copy a file from one location to the other.
 
