@@ -8,7 +8,7 @@ Modern programming starts with the shell. It's been the beating heart of softwar
 
 For those on windows, to make stuff easier, download the newer terminal emulator at the windows store [here](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US). Those on mac can use the built-in terminal emulator or download iTerm2 [here](https://iterm2.com/downloads.html). When you open one of these applications you'll be presented with a text based interface. One of mine looks like this.
 
-![image-20240307225156676](./assets/image-20240307225156676.png)
+![image-20240307225156676](../../assets/image-20240307225156676.png)
 
 The white block there is a blinking cursor where I can type in commands. You can think of this window as a text based version of windows explorer or the mac finder. You always exist in the context of a folder. The default generally being your "home" directory. You can change the directory using the `cd` (change directory) command. You can run a program in two ways. Either typing out the path to that program, or ensuring it's in a directory referenced in your PATH environment variable. The methods of doing so can vary greatly based on your setup.
 
