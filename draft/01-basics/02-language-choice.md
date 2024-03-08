@@ -17,6 +17,8 @@ If you plan on working as a professional developer, python has a number of issue
 
 It's possible to work with large python applications safely, but it's very difficult. Most companies do not use python for application development.
 
+**Note:** Astute observers will note that I didn't include a suggestion for web development. This is because at minimum you need to understand HTML, CSS, and JavaScript. There isn't really a way around it, and most web development is significantly more complicated. Hence I don't recommend you start with it without getting your feet wet.
+
 ### For Quality Engineers
 
 When I talk about Quality Engineers I mean specifically those who use code to create automated (as in without a user) end to end or integration tests. Some organizations roll that into their application developers, some have it as a dedicated role (which I prefer), and some don't do it at all (the worst case scenario).
