@@ -25,3 +25,10 @@ The most common languages I've seen for this task are python and node. Because o
 
 ### For Systems Engineers
 
+For those working in the infrastructure space there are three languages you need. One of which is technically optional, but not really if you want to be a professional getting work.
+
+The first is quite simple. You need an in-depth understanding of the operating system and how to manipulate it with the shell of the chosen operating system. That would be PowerShell for windows, and generally bash for everything else. While regular programmers generally only need to use the shell for simple commands, system engineers use the shell as a programming language and environment. This is because the vast majority of the work is either headless (no graphics and only the shell as access) or automated.
+
+The second is a normal programming language. While you can automate work in bash with basic programming, some tasks require a more sophisticated approach. Historically the language of choice would be python as it's pre-installed on basically everything, and remote installable on 100% of everything if needed. Nowadays quite a bit of systems work around Kubernetes is done in golang, but I wouldn't start with that if it's your first programming language as it's a bit obtuse.
+
+The last is another programming language, but one much more specialized. There are domain specific languages designed to represent infrastructure, which you execute to create the resources represented by the code. This is very common for companies that have multiple environments for testing purposes, and generally required for most companies under any kind of government regulation. We'll be getting into why that is later.
