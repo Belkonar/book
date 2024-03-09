@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     container: pandoc/latex
     steps:
+      - uses: actions/checkout@v4
       - name: test
-        run: pandoc --help
-        
+        run: ./build.sh
