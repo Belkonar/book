@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: test
-        run: ./build.sh
+        run: pandoc $(ls draft/**/*.md | sort) -V documentclass=report --metadata-file ./metadata.yaml "--from=gfm-implicit_figures+rebase_relative_paths" -t pdf -s -o out/book.pdf
