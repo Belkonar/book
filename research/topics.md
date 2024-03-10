@@ -7,7 +7,7 @@ Topics I'd like to cover
 | 03      | Cloud networking             |        |
 | 04      | Services                     |        |
 | 05      | Compute                      |        |
-| 06      | Deployments                  |        |
+| 06      | Deployments                  | WIP    |
 | 07      | Databases                    |        |
 | 08      | Auth(n/z)                    |        |
 | 09      | Monitoring                   |        |
